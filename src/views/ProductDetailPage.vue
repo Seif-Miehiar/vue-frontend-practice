@@ -1,5 +1,7 @@
 <template>
-  <h1> {{ product }}</h1>
+  <div id="page-wrap">
+    hello world
+  </div>
 </template>
     
 <script>
