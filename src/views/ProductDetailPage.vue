@@ -1,0 +1,61099 @@
+<template>
+  <h1> {{ product }}</h1>
+</template>
+    
+<script>
+import { products } from "../fake-data";
+
+export default {
+  name: 'ProductDetailPage',
+  data() {
+    return { product: products.find((p) => p.id === this.$route.params.id) }
+  }
+};
+</script>
+    
+<style scoped>
+#page-wrap {
+  margin-top: 16px;
+  padding: 16px;
+  max-width: 600px;
+}
+
+#img-wrap {
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+  position: relative;
+}
+
+#add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+    top: 24px;
+  right: 16px;
+}
+</style>
+  g {
+  width: 400px;
+}
+
+#product-details {
+  padding: 16px;
+ #add-to-cart {
+  width: 100%;
+}
+
+#price {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+}
+</style>
+  
